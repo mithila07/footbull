@@ -1,0 +1,30 @@
+@use "../abstracts" as *;
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: $light-400;
+  background-color: $dark-100;
+}
+
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: "MontserratVariable";
+    font-variation-settings: "wght" 400;
+  }
+}
+
+.customButtonText {
+  z-index: 2;
+}
+
+.gradientText {
+  background: linear-gradient(90deg, #4E34EE 50%, #7D34ED 70%, #B235ED 90%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradientText2 {
+  background: linear-gradient(90deg, #B235ED 20%, #4E34EE 40%, #7D34ED 70%, #B235ED 90%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
