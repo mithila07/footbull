@@ -4,9 +4,9 @@ import logo from "../../assets/logo.png";
 import CustomButton from "../../styles/components/CustomButton";
 import NavbarLink from "../../styles/components/NavbarLink";
 
+const navItems = ['Home', 'Ecosystem', 'Our NFTs', 'Roadmap', 'Our Team'];
 
 export default function NavbarDesktop() {
-    const navItems = ['Home', 'Ecosystem', 'Our NFTs', 'Roadmap', 'Our Team'];
 
     return (
         <>

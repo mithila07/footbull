@@ -4,8 +4,10 @@ import './App.scss';
 import AbountSection from './layouts/AboutSection';
 import CtaSection from './layouts/CtaSection';
 import EcosystemSection from './layouts/EcosystemSection';
+import Footer from './layouts/Footer';
 import MainHeader from './layouts/MainHeader';
 import Navbar from './layouts/Navbar';
+import PartnerSection from './layouts/PartnersSection';
 import RoadmapSection from './layouts/RoadmapSection';
 import TeamSection from './layouts/TeamSection';
 import TokenomicsSection from './layouts/TokenomicsSection';
@@ -29,6 +31,8 @@ function App() {
         <TokenomicsSection />
         <RoadmapSection />
         <TeamSection />
+        <PartnerSection />
+        <Footer />
       </Container>
     </ThemeProvider>
   );

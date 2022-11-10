@@ -9,48 +9,50 @@ export default function Roadmap() {
             <Box mt="6rem">
                 <div className={styles.roadmapItem}>
                     <Typography align="center" color="#ffffff" sx={{ fontSize: "25px;", fontVariationSettings: `"wght" 500`, textTransform: "uppercase" }}>
-                        August 2022
+                        Q4 2022
                     </Typography>
                     <div className={styles.roadmapItemDivider}></div>
                     <div className={styles.roadmapItemDescription}>
                         <Typography sx={{ fontSize: "25px;", fontVariationSettings: `"wght" 500`, zIndex: 4 }}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et iolu velit.
+                            Private Sale / Seed raise, Establish partnerships, Token creation, Audit & KYC.
+                            Token WL presale (1000BNB raise?) Establish relationships with call channels & outreach campaign.
                         </Typography>
                     </div>
                 </div>
 
                 <div className={styles.roadmapItem}>
                     <Typography align="center" color="#ffffff" sx={{ fontSize: "25px;", fontVariationSettings: `"wght" 500`, textTransform: "uppercase" }}>
-                       September 2022
+                        Q1 2023
                     </Typography>
                     <div className={styles.roadmapItemDivider}></div>
                     <div className={styles.roadmapItemDescription}>
                         <Typography sx={{ fontSize: "25px;", fontVariationSettings: `"wght" 500`, zIndex: 4 }}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et iolu velit.
+                            Ethereum Cross-chain launch, New marketing campaign on Ethereum
                         </Typography>
                     </div>
                 </div>
 
                 <div className={styles.roadmapItem}>
                     <Typography align="center" color="#ffffff" sx={{ fontSize: "25px;", fontVariationSettings: `"wght" 500`, textTransform: "uppercase" }}>
-                       October 2022
+                        Q2 2023
                     </Typography>
                     <div className={styles.roadmapItemDivider}></div>
                     <div className={styles.roadmapItemDescription}>
                         <Typography sx={{ fontSize: "25px;", fontVariationSettings: `"wght" 500`, zIndex: 4 }}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et iolu velit.
+                            Release of 'Basketbull' the NBA fantasy league on both BSC & ETH.
                         </Typography>
                     </div>
                 </div>
 
                 <div className={styles.roadmapItem}>
                     <Typography align="center" color="#ffffff" sx={{ fontSize: "25px;", fontVariationSettings: `"wght" 500`, textTransform: "uppercase" }}>
-                       2023
+                        Q3 2023
                     </Typography>
                     <div className={styles.roadmapItemDivider}></div>
                     <div className={styles.roadmapItemDescription}>
                         <Typography sx={{ fontSize: "25px;", fontVariationSettings: `"wght" 500`, zIndex: 4 }}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et iolu velit.
+                            - Sponsor real football & basketball teams. Celebrity Ambassadors. Self-fuelled ecosystem due
+                            to success of business model
                         </Typography>
                     </div>
                 </div>

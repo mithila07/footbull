@@ -20,11 +20,10 @@ export default function MainHeaderImgAndCta() {
             />
             <Box sx={{ maxWidth: "350px", marginBlockEnd: "-8rem"}} >
                 <Typography sx={{ fontSize: "18px", lineHeight: "30px", fontVariationSettings: `"wght" 500` }} mb="25px">
-                    Brought to you by passionate football fans. Footbull is the ‘dApp’ coming to you on the Binance Smart
-                    Chain.
+                Web3’s Fantasy Footbull platform. Mint, play & earn in a decentralized and flawless experience!
                 </Typography>
                 <CustomButton endIcon={<EastIcon sx={{ zIndex: "2" }} />}>
-                    <Typography variant="span" component="span" className="customButtonText">Explore</Typography>
+                    <Typography variant="span" component="span" className="customButtonText">where does this lead to?</Typography>
                 </CustomButton>
             </Box>
         </>
