@@ -2,6 +2,7 @@ import { Container, ThemeProvider } from '@mui/material';
 import React, { useEffect } from 'react';
 import './App.scss';
 import AbountSection from './layouts/AboutSection';
+import AppStoreSection from './layouts/AppStoreSection';
 import CtaSection from './layouts/CtaSection';
 import EcosystemSection from './layouts/EcosystemSection';
 import Footer from './layouts/Footer';
@@ -29,6 +30,7 @@ function App() {
         <EcosystemSection />
         <CtaSection />
         <TokenomicsSection />
+        <AppStoreSection />
         <RoadmapSection />
         <TeamSection />
         <PartnerSection />
