@@ -1,0 +1,32 @@
+.threeBoxesWrapper {
+  display: flex;
+  gap: 1.5rem;
+  margin-block-start: 2rem;
+
+  .threeBoxes {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    img {
+      position: relative;
+      z-index: 2;
+    }
+
+    &Content {
+      background: #272534;
+      border-radius: 20px;
+      padding: 4rem 20px 20px;
+      position: relative;
+      top: -4rem;
+      z-index: 1;
+
+      p {
+        color: #ffffff;
+        font-variation-settings: 'wght' 600;
+        font-size: 16px;
+        white-space: nowrap;
+      }
+    }
+  }
+}

@@ -13,34 +13,34 @@ export default function BlurbGrid() {
         <>
             <Grid container spacing={6} mt="6rem">
                 <Grid item xs={12} md={4} sx={{ marginBlockStart: { md: "6rem" } }}>
-                    <div className={styles.blurbItem}>
-                        <div className={styles.blurbItemIcon}>
+                    <Box className={styles.blurbItem}>
+                        <Box className={styles.blurbItemIcon}>
                             <Box component="img" src={discountIcon} />
-                        </div>
-                        <div className={styles.blurbItemContent}>
+                        </Box>
+                        <Box className={styles.blurbItemContent}>
                             <Typography align="center" color="#ffffff" sx={{ fontSize: "25px", fontVariationSettings: `"wght" 700`, zIndex: 4 }}>Token tax & Prizes</Typography>
-                        </div>
-                    </div>
+                        </Box>
+                    </Box>
                 </Grid>
                 <Grid item xs={12} md={4}>
-                    <div className={`${styles.blurbItem} ${styles.active}`}>
-                        <div className={styles.blurbItemIcon}>
+                    <Box className={`${styles.blurbItem} ${styles.active}`}>
+                        <Box className={styles.blurbItemIcon}>
                             <Box component="img" src={uploadIcon} />
-                        </div>
-                        <div className={styles.blurbItemContent}>
+                        </Box>
+                        <Box className={styles.blurbItemContent}>
                             <Typography align="center" color="#ffffff" sx={{ fontSize: "25px", fontVariationSettings: `"wght" 700`, zIndex: 4 }}>Mintings the NFTs</Typography>
-                        </div>
-                    </div>
+                        </Box>
+                    </Box>
                 </Grid>
                 <Grid item xs={12} md={4} sx={{ marginBlockStart: { md: "6rem" } }}>
-                    <div className={styles.blurbItem}>
-                        <div className={styles.blurbItemIcon}>
+                    <Box className={styles.blurbItem}>
+                        <Box className={styles.blurbItemIcon}>
                             <Box component="img" src={gridIcon} />
-                        </div>
-                        <div className={styles.blurbItemContent}>
+                        </Box>
+                        <Box className={styles.blurbItemContent}>
                             <Typography align="center" color="#ffffff" sx={{ fontSize: "25px", fontVariationSettings: `"wght" 700`, zIndex: 4 }}>Buyback into token</Typography>
-                        </div>
-                    </div>
+                        </Box>
+                    </Box>
                 </Grid>
             </Grid>
         </>

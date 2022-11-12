@@ -6,6 +6,7 @@ import AppStoreSection from './layouts/AppStoreSection';
 import CtaSection from './layouts/CtaSection';
 import EcosystemSection from './layouts/EcosystemSection';
 import Footer from './layouts/Footer';
+import ImageGallery from './layouts/ImageGallery';
 import MainHeader from './layouts/MainHeader';
 import Navbar from './layouts/Navbar';
 import PartnerSection from './layouts/PartnersSection';
@@ -29,6 +30,7 @@ function App() {
         <AbountSection />
         <EcosystemSection />
         <CtaSection />
+        {/* <ImageGallery /> */}
         <TokenomicsSection />
         <AppStoreSection />
         <RoadmapSection />

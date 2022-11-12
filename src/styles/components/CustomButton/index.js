@@ -9,7 +9,7 @@ const CustomButton = styled(Button)(() => ({
         fontVariationSettings: `"wght" 600`,
         lineHeight: "28px",
         letterSpacing: "0.02em",
-        textTransform: "capitalize",
+        textTransform: "unset",
         width: "fit-content",
         height: 56,
         padding: "0 30px",
@@ -37,8 +37,12 @@ const CustomButton = styled(Button)(() => ({
             height: 52,
             width: "calc(100% - 4px)",
             inset: "11px 0 0 12px",
+            transition: "0.15s ease-in-out all",
             zIndex: 0
-        }
+        },
+        '&:hover': {
+            boxShadow: "0 10px 22px 0px rgba(128, 107, 255, 0.25)"
+        },
     }));
 
 
