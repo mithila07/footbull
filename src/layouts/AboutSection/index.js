@@ -6,12 +6,13 @@ import imgOne from "../../assets/footbull/1.png";
 import imgTwo from "../../assets/footbull/4.png";
 import NftCardImg from "../../styles/components/NftCardImg";
 import ThreeBoxes from "./threeBoxes";
+import Wrapper from "../../styles/components/Wrapper";
 
 export default function AbountSection() {
 
     return (
         <>
-            <Box sx={{ padding: "0 7rem" }} mt="20rem">
+            <Wrapper sx={{marginBlockStart: {xs: "7rem", md: "20rem"} }}>
                 <Grid container spacing={0}>
                     <Grid item xs={12} md={6}>
                         <AboutSectionContent />
@@ -28,7 +29,7 @@ export default function AbountSection() {
                         </Box>
                     </Grid>
                 </Grid>
-            </Box>
+            </Wrapper>
         </>
     );
 }

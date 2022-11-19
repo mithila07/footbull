@@ -1,6 +1,10 @@
 .mapWrapper {
+  padding-block: 4rem;
+
+  @media (min-width: 900px) {
     margin-block-start: 6rem;
     padding-block: 8rem;
     background: url(../../assets/world-map.png) no-repeat center;
     background-size: auto 100%;
+  }
 }

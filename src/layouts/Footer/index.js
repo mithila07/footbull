@@ -1,10 +1,10 @@
 import React from "react";
-import { Box, Divider, Grid, Icon, Link, Typography } from "@mui/material";
+import { Box, Divider, Grid, Link, Typography } from "@mui/material";
 
 import SendIcon from '@mui/icons-material/Send';
 import LanguageIcon from '@mui/icons-material/Language';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import { borderColor } from "@mui/system";
+import Wrapper from "../../styles/components/Wrapper";
 
 const navItems = ['Home', 'Ecosystem', 'Our NFTs', 'Roadmap', 'Our Team'];
 const socialIcons = [ 
@@ -52,7 +52,7 @@ export default function Footer() {
 
     return (
         <>
-            <Box sx={{ padding: "0 7rem" }} mt="10rem">
+            <Wrapper mt="10rem">
                 <Grid container spacing={2}>
                     <Grid item xs={12} md={9}>
                         <Box sx={{ display: 'flex', gap: '3rem', height: '100%', alignItems: 'center' }}>
@@ -73,7 +73,7 @@ export default function Footer() {
                         </Box>
                     </Grid>
                 </Grid>
-            </Box>
+            </Wrapper>
             <Divider sx={{ marginBlock: '4rem 3rem', borderColor: 'rgba(255, 255, 255, 0.2)' }}/>
                 <Typography color="#ffffff" align="center" sx={{ fontSize: '24px', fontVariationSettings: `"wght" 300`, marginBlockEnd: '3rem' }}>Copyright  ©  2022 FootBull All Rights Reserved.</Typography>
         </>

@@ -7,6 +7,7 @@ import mariel from "../../assets/mari_el.png";
 import ns from "../../assets/ns.png";
 import sm from "../../assets/sm.png";
 import vb from "../../assets/vb.png";
+import Wrapper from "../../styles/components/Wrapper";
 
 const itemData = [
     {
@@ -40,14 +41,14 @@ export default function PartnerSection() {
 
     return (
         <>
-            <Box sx={{ padding: "0 7rem" }} mt="5rem">
+            <Wrapper mt="5rem">
                 <TitleText variant="h1" align="center" mb="3rem">Our Partners</TitleText>
                 <Box mt="5rem" sx={{ display: "flex", gap: "clamp(4rem, 10vw, 10rem)", alignItems: "center", justifyContent: "center" }}>
                     {itemData.map((item) => (
                         <img width={item.width} src={item.img} alt={item.title} loading="lazy" />
                     ))}
                 </Box>
-            </Box>
+            </Wrapper>
         </>
     );
 }

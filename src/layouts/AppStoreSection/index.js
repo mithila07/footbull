@@ -6,12 +6,13 @@ import getStartedView from "../../assets/get-started-view.png";
 import mineView from "../../assets/mine-view.png";
 import googlePlay from "../../assets/google-play.png";
 import appleStore from "../../assets/apple-store.png";
+import Wrapper from "../../styles/components/Wrapper";
 
 export default function AppStoreSection() {
 
     return (
         <>
-            <Box sx={{ padding: "0 7rem" }} mt="10rem">
+            <Wrapper mt="10rem">
                 <Box className={styles.appWrapper}>
                     <Box className={styles.appWrapperBackground}></Box>
                     <Box className={styles.appWrapperContent}>
@@ -32,7 +33,7 @@ export default function AppStoreSection() {
                     <Box component="img" src={getStartedView} className={`${styles.appWrapperImgOne} ${styles.mobileImg}`} />
                     <Box component="img" src={mineView} className={`${styles.appWrapperImgTwo} ${styles.mobileImg}`} />
                 </Box>
-            </Box>
+            </Wrapper>
         </>
     );
 }
